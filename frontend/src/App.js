@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 
-  const API = "http://localhost:5000/students";
+  const API = "https://mern-crud-ynqy.onrender.com/students";
 
   const [students, setStudents] = useState([]);
   const [name, setName] = useState("");
